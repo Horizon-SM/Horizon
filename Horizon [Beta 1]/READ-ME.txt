@@ -1,0 +1,42 @@
+Introduction:
+=============
+
+Welcome to the official Beta 1 version of Horizon, built in under 3 weeks, expected to release on September 20th.
+This version is only compatible with computers.
+
+About:
+======
+
+Horizon is a social media project that aims to deliver a secure user experience that doesn't share your data to third-parties, unlike Meta.
+After seeing many user complaints concerning privacy & security measures on Instagram, TikTok, Facebook (Mark SuckerBerg), and so on, it
+became our mission to make a new platform that will keep its promises to their clients (You).
+
+Beta 1 features:
+================
+
+Dim/Dark Mode
+
+Background Mode Memory (B.M.M; remembers whether you were initially on dim or dark mode before refreshing the page)
+
+HorizonAI (built using Google's Gemini AI assistant for this version)
+
+
+Troubleshoot:
+=============
+
+In file location "Javascript/scripts.js", line 18 -> if the API_KEY is missing, paste the following key: "AIzaSyC02ObF90pmqVSPnjFSw-FVSjBceJ5qOnM"
+
+In file location "Javascript/scripts.js", line 32 -> if the API_URL is missing, paste the following URL: `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`
+
+If the AI doesn't respond back, here are a couple of solutions:
+
+ 1) Refresh your web page.
+ 2) If first solution doesn't work, view the web console (Right Click + Inpsect Source Code)
+ 3) *Following second solution, contact the developer.
+
+*Contacts -> Instagram: _.horizon.ai._ (responds in under 24 hours)
+
+Important:
+==========
+
+If you have no experience/knowledge in programming, DO NOT edit the source code as it could ruin your usage experience.

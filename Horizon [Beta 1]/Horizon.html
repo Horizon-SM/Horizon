@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Assets/Images/horizon_dark.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon | Beta 1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Horizon</h1>
+        <ul class="top-options">
+            <li><a href="#" id="messages-link">Messages</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Videos</a></li>
+        </ul>
+        <ul class="bottom-options">
+            <li><a href="#">Log Out</a></li>
+            <li><a href="#">Settings</a></li>
+            <li>
+                <div class="toggle-container">
+                    <span>Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="chatbot">
+        <header>
+            <h2>HorizonAI</h2>
+            <p> Powered by Google's Gemini AI assistant.</p>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hi, I am HorizonAI, your personal assistant. How may I help you today?</p>
+            </li>
+            <li class="chat outgoing">
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Type your message..." required></textarea>
+            <span id="send-btn">
+                <p class="material-symbols-outlined">send</p>
+            </span>
+        </div>
+    </div>
+    <script src="Javascript/scripts.js"></script>
+</body>
+</html>
