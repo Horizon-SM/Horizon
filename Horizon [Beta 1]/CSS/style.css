@@ -242,7 +242,7 @@ input:checked + .slider:before {
 }
 
 .chat-input span {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 17px;
     height: 50px;
     width: 50px;
